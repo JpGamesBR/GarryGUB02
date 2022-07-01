@@ -411,7 +411,7 @@ async def carro(ctx):
     gifs = ['https://c.tenor.com/Sf2-dHHOJDYAAAAd/car.gif','https://c.tenor.com/MOt9dY8XGc0AAAAd/nissan-car.gif','https://c.tenor.com/kOj7COh2MnEAAAAC/dodge-challenger.gif'] # Normal gifs 3/3
     cargos = StrToList(cargos)
     stat = ''
-    if 'CarExt1' in cargos:
+    if 'CarExtensionPack' in cargos:
         gifs.append('https://www.icegif.com/wp-content/uploads/car-icegif-4.gif')
         gifs.append('https://c.tenor.com/NBHP0sc4CaUAAAAC/drift-cars.gif')
         gifs.append('https://i.gifer.com/7Uv0.gif') #with ext gifs 6/6
