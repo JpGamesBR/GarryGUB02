@@ -1,0 +1,48 @@
+{
+    "misc":{
+        "//comment":"Miscelaneous class!",
+        "ping":{
+            "values":"None",
+            "return":"Send the ping of this bot"
+        },
+        "say":{
+            "values":"text",
+            "return":"Send the message of the user"
+        },
+        "profile":{
+            "values":"member: optional mention",
+            "return":"Send a embed speaking all the information of the user"
+        },
+        "about-me":{
+            "values":"text",
+            "return":"Set your about-me to the spoken text"
+        },
+        "myimg":{
+            "values":"link or file",
+            "return":"Set your image from your profile"
+        },
+        "avatar":{
+            "values":"member: optional mention",
+            "return":"Send a embed with the member image"
+        },
+        "born":{
+            "values":"day month year",
+            "return":"Set your born date and your age"
+        },
+        "url":{
+            "values":"link",
+            "return":"Set your profile url"
+        }
+    },
+    "funny":{
+        "//comment":"Funny class!",
+        "slap":{
+            "values":"member: mention",
+            "return":"Send a random gif slapping the mentioned member"
+        },
+        "punch":{
+            "values":"member: mention",
+            "return":"Send a random gif punching the mentioned member"
+        }
+    }
+}
